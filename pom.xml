@@ -4,6 +4,10 @@
   <groupId>com.aleksandrphilimonov.spring.mvc.hibernate</groupId>
   <artifactId>spring_course_mvc_hibernate_aop</artifactId>
   <packaging>war</packaging>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
   <version>1.0-SNAPSHOT</version>
   <name>spring_course_mvc_hibernate_aop Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -59,7 +63,4 @@
     </dependency>
 
   </dependencies>
-  <build>
-    <finalName>spring_course_mvc_hibernate_aop</finalName>
-  </build>
 </project>
